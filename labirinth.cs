@@ -2,20 +2,8 @@ namespace labirinth;
 
 public class labirinth
 {
-    int[,] labirynth1 = new int[,]
+    public int GetCountExit(int i, int j, int[,] l)
     {
-        {1, 1, 1, 1, 1, 1, 1 },
-        {1, 0, 0, 0, 0, 0, 1 },
-        {1, 0, 1, 1, 1, 0, 1 },
-        {0, 0, 0, 0, 1, 0, 2 },
-        {1, 1, 0, 0, 1, 1, 1 },
-        {1, 1, 1, 0, 1, 1, 1 },
-        {1, 1, 1, 0, 1, 1, 1 }
-    };
-
-    public int GetCountExit(int i, int j, int[,] l1)
-    {
-        int[,] l = l1;
         int counter = 0;
         switch (l[i, j])
         {
