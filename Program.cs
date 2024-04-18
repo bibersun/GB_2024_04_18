@@ -23,3 +23,6 @@ labirynth1 = new int[,]
 };
 Console.Write("Найдено вариантов выхода: ");
 Console.WriteLine(new labirinth.labirinth().GetCountExit(3,1,labirynth1));
+
+Console.Write("Найдено вариантов выхода: ");
+Console.WriteLine(new labirinth.labirinth().GetCountExit(0,0,labirynth1));
