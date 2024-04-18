@@ -10,12 +10,7 @@ public class labirinth
             Console.Write("В стене старт ");
             return counter;
         }
-        // if (l[i, j] == 1)
-        // {
-        //     Console.WriteLine("В выходе старт");
-        //     ++counter;
-        // } 
-
+    
         var stack = new Stack<Tuple<int, int>>();
         stack.Push(new (i, j));
         
